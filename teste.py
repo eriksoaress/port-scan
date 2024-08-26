@@ -66,7 +66,8 @@ def start_scan():
         result = "\n".join([f"Porta {port}: {service}" for port, service in open_ports])
         
         scanning_label.config(text="")
-        
+        if result == "":
+            result = "Nenhuma porta aberta foi encontrada."
         messagebox.showinfo("Resultado", result)
     except Exception as e:
         scanning_label.config(text="")
