@@ -4,13 +4,13 @@ Scan-Port é um script em Python que tem como objetivo realizar uma varredura de
 ## Como usar
 Para utilizar o script, basta clonar o repositório, instalar as dependências através do comando `pip install -r requirements.txt` e executar o script passando o host que deseja realizar a varredura. Exemplo:
 ```bash
-python3 scan_port.py
+python3 scanner.py
 ```
 O script irá solicitar o host que deseja realizar a varredura, basta informar o host, a porta inicial e a porta final que deseja realizar a varredura.
 
 ## Exemplo
 ```bash
-python3 scan_port.py
+python3 scanner.py
 Host: localhost
 Porta inicial: 1
 Porta final: 100
